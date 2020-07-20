@@ -1,0 +1,29 @@
+{
+    "name": "blog_list",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": " node index.js",
+        "test": " jest --verbose --runInBand",
+        "dev": " nodemon index.js"
+    },
+    "author": "aman kapoor",
+    "license": "ISC",
+    "dependencies": {
+        "bcrypt": "^5.0.0",
+        "express": "^4.17.1",
+        "jsonwebtoken": "^8.5.1",
+        "mongoose": "^5.9.16",
+        "mongoose-unique-validator": "^2.0.3"
+    },
+    "devDependencies": {
+        "cors": "^2.8.5",
+        "jest": "^26.0.1",
+        "nodemon": "^2.0.4",
+        "supertest": "^4.0.2"
+    },
+    "jest": {
+        "testEnvironment": "node"
+    }
+}
